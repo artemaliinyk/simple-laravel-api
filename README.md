@@ -64,7 +64,7 @@ The /api/submit endpoint accepts a POST request with the following JSON payload 
 }`
 
 
-### Example Request (Using cURL)
+### Example Request (Using Postman)
 You can test the API endpoint using tools like Postman or cURL.
 
 #### 1. Open Postman
