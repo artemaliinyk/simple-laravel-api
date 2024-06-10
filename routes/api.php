@@ -1,5 +1,8 @@
 <?php
 
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\SubmissionController;
+
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -10,3 +13,5 @@
 | be assigned to the "api" middleware group. Make something great!
 |
 */
+
+Route::post('/submit', [SubmissionController::class, 'submit']);
