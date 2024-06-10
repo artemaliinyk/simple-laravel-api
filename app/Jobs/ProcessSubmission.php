@@ -17,7 +17,7 @@ class ProcessSubmission implements ShouldQueue
     /**
      * Create a new job instance.
      */
-    public function __construct(protected array $data) {}
+    public function __construct(public array $data) {}
 
     /**
      * Execute the job.
